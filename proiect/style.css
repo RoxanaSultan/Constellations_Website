@@ -1,0 +1,91 @@
+body {
+        margin:0;
+        padding:0;
+        background:#000000;
+        font-family:arial;
+        }
+
+        .loader {
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                }
+
+                .loader h1 {
+                        margin:0;
+                        padding:0;
+                        text-transform:uppercase;
+                        font-size:14em;
+                        color:rgba(255,255,255,.1);
+                        background-image:url('9.jpeg');
+                        background-repeat: repeat;
+                        -webkit-background-clip:text;
+                        animation: animate 15s linear infinite;
+                        }
+.formular{
+        margin-top:60px;
+        display:inline-block;
+        margin-left:250px;
+        
+}
+.logo{
+        margin-top: 35px;
+        margin-left: 20px;
+        display: inline-block;
+        cursor: pointer;
+        position: fixed;
+    }
+    .buton{
+            background-color: #758ad4;
+            color:white;
+            margin-left: 495px;
+            border-radius: 25px;
+            font-size: 17px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+    }
+    .buton:hover{
+        background-color: #0a2894;
+    }
+    .hm{
+            background-color: black;
+            color: white;
+            font-weight: 900;
+            text-align: center;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #758ad4;
+            border-radius: 25px;
+            font-size: 14px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            
+    }
+    @keyframes animate
+    {
+    0%
+    {
+            background-position:left 0px top 80px;
+    }
+    
+    40%
+    {
+            background-position:left 800px top -50px;
+    }
+    
+    80%
+    {
+            background-position:left 1800px top -50px;
+    }
+    
+    100%
+    {
+            background-position:left 2400px top 80px;
+    }
+    
+    }
